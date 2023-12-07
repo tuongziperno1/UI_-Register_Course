@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    margin-top: 16px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    min-height: 380px;
+    line-height: 380px;
+    background-color: #ffffff;
+}
+
+.tile-item {
+    text-align: center;
+    margin-top: -380px;
+    font-size: 20px;
+}
+
+.tile-item span {
+    color: red;
+}
+
+.rectangle {
+    width: 400px;
+    height: 80px;
+    border: 2px dashed #d20000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.rectangle-1 {
+    width: 370px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    background-color: #d20000;
+    color: #fff;
+}
+.text-row {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -87px;
+    color: black;
+    font-size: 15px;   
+}
+.text-row span{
+    color: #555555;
+}
+.text-row1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+    color: #fff;
+    font-size: 30px;   
+}
+.text-row2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+    color: #555555;
+    font-size: 16px;
+}
+.text-row3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #555555;
+    font-size: 16px;
+}
+.text-row4 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 23px;
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 15vh; 
+}
+
+.square {
+    position: relative;
+    width: 50px; 
+    height: 50px;
+    background-color: #212121; 
+    margin: 7px; 
+    border-radius: 5px;
+}
+.square1 {
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    top:10px;
+    left:10px;
+    font-size: 30px;
+    color: #fff;
+}
+.item1 {
+    margin-top: 16px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    min-height: 380px;
+    line-height: 380px;
+    background-color: #27293d;
+}
+
+.form {
+    margin-top: -350px;
+    font-size: 25px;
+    padding-left: 25px;
+    color: #fff;
+}
+
+.form .form-1 {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    margin-top: 45px;
+    display: flex;
+    background-color: #27293d;
+    font-size: 20px;
+    border: 0;
+
+
+}
+
+.form .form-2 {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    margin-top: 25px;
+    display: flex;
+    background-color: #27293d;
+    font-size: 20px;
+    border: 0;
+
+}
+
+.form .form-3 {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    margin-top: -70px;
+    display: flex;
+    background-color: #27293d;
+    font-size: 20px;
+    border: 0;
+
+}
+
+.form .form-4 {
+    width: 360px;
+    height: 123px;
+    margin-right: 5px;
+    background-color: #27293d;
+    font-size: 20px;
+    border: 0;
+    text-align: right;
+
+}
+
+label {
+    padding-top: 5px;
+}
+
+.header {
+    background-color: #ffff;
+    min-height: 100px;
+}
+
+.header-top {
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+
+}
+
+h1 span {
+    color: #009fe3;
+}
+
+.line-container {
+    padding-left: 605px;
+    width: 50%;
+    height: 2px;
+}
+
+.line {
+    text-align: center;
+    width: 78px;
+    height: 100%;
+    background-image: linear-gradient(to right, #000000, #000000);
+}
+
+.footer {
+    margin-top: 30px;
+    min-width: 380px;
+    line-height: 200px;
+    background-color: #fff;
+}
+.border-under::before{
+    content: "";
+    width: 80px;
+    position: absolute;
+    bottom: -10px;
+    left: 47%;
+    border: 1px solid #000000;
+}
+
+.form-control{
+    background-color: #27293d !important;
+    border: none !important;
+    color: #fff !important;
+}
